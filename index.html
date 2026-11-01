@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线工具箱</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .tools {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .tool {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        .tool h2 {
+            color: #2563eb;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            .tools {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>在线工具箱</h1>
+        <p>简单、方便、实用的在线工具</p>
+    </header>
+
+    <div class="container">
+
+        <h2>全部工具</h2>
+
+        <div class="tools">
+
+            <div class="tool">
+                <h2>计算器</h2>
+                <p>进行日常数学计算</p>
+                <button>即将推出</button>
+            </div>
+
+            <div class="tool">
+                <h2>倒计时</h2>
+                <p>记录时间，安排计划</p>
+                <button>即将推出</button>
+            </div>
+
+            <div class="tool">
+                <h2>单位换算</h2>
+                <p>长度、质量、温度换算</p>
+                <button>即将推出</button>
+            </div>
+
+            <div class="tool">
+                <h2>随机数生成器</h2>
+                <p>生成指定范围内的随机数字</p>
+                <button>即将推出</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        我的在线工具箱 © 2026
+    </footer>
+
+</body>
+</html>
